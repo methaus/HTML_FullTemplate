@@ -1,19 +1,16 @@
 <!DOCTYPE html> <!-- descritor de HTML5 -->
 
-<html lang="pt_BR"> <!-- tag principal, definidora do documento; lang="" : difinidor de linguagem para busca -->
-	<head> <!-- tag container do cabeçaçho do documento -->
-		<meta charset="UTF-8"> <!-- metadados da página : base, link, script, style ou title -->
+<html lang="pt_BR">
+	<head>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>HTML - Exemplo Completo</title> <!-- tag de título do documento -->
-		<link rel="stylesheet" type="text/css" href=""> <!-- linkar aquivo externo, css, outro html, etc -->
-		<style type="text/css">
-			/* definir estilos dentro do html : type="" tipo de formato */
-		</style>
+		<title>HTML - Exemplo Completo</title>
+		<link rel="stylesheet" type="text/css" href="">
 	</head>
-	<body> <!-- tag de conteúdo da página -->
+	<body>
 		<header>
 			<nav>
-				<h1>HTML - Linguagem de Marcação</h1> <!-- título principal do documento, obrigátória e única -->
+				<span>HTML - Linguagem de Marcação</span>
 				<ul>
 					<li>HOME</li>
 					<li>Item1</li>
@@ -23,68 +20,98 @@
 		</header>
 		<main>
 			<header>
-				<h2></h2>
+				<h1>HTML - HyperText Markup Language: tags semânticas</h1>
+				<img alt="html logo" width="50" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+				<p>Site exemplo de orientação semântica das tags HTML e utilização dentro do documento.</p>
 			</header>
-			<div> <!-- divisão de espaço ou container de tags sem definição-->
+			<div>
+				<h2>Texto</h2>
+				<div>
+					<h3><code>&lt;span&gt;&lt;&sol;span&gt;</code></h3>
+					<p>Tag de agrupamento de texto genérica, sem definição.</p>
+					<span>Ex: este é um texto sem predefinição e significado semântico.</span>
+				</div>
+				<div>
+					<h3><code>&lt;h*&gt;&lt;&sol;h*&gt;</code></h3>
+					<p>Tag de títulação, senguindo uma hierarquia: <code>&lt;h1&gt;</code> (um por página), <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code> e <code>&lt;h6&gt;</code>.</p>
+					<div>
+						<h4>Este é um título h4, último em hierarquia da página</h4>
+						<p>E responde a este parágrafo <code>&lt;p&gt;</code>, que estão dentro de uma <code>&lt;div&gt;</code> organizacional.</p>
+					<div>
+				</div>
+				<div>
+					<h3><code>&lt;p&gt;&lt;&sol;p&gt;</code></h3>
+					<p>Tag de parágrafo textual, bloco de texto.</p>
+					<p>Ex: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div>
+					<h3><code>&lt;a&gt;&lt;&sol;a&gt;</code></h3>
+					<p>tag de </p>
+				</div>
+				<div>
+					<h3><code>&lt;b&gt;&lt;&sol;b&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;i&gt;&lt;&sol;i&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;em&gt;&lt;&sol;em&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;strong&gt;&lt;&sol;strong&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;abbr&gt;&lt;&sol;abbr&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;q&gt;&lt;&sol;q&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;blockquote&gt;&lt;&sol;blockquote&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;time&gt;&lt;&sol;time&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;cite&gt;&lt;&sol;cite&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;pre&gt;&lt;&sol;pre&gt;</code></h3>
+					<p>Tag de texto preformatado, cujo texto será disposto da mesma maneira que foi descrito no arquivo fonte.</p>
+				</div>
+				<div>
+					<h3><code>&lt;code&gt;&lt;&sol;code&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;br&gt;</code></h3>
+					<p></p>
+				</div>
+				<div>
+					<h3><code>&lt;hr&gt;&lt;</code></h3>
+					<p></p>
+				</div>
 			</div>
-			<span> <!-- divisão de conteúdo texto sem definição-->
-			</span>
+			<div>
+				<h2>Citações</h2>
+				<blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+					<h3><code>&lt;blockquote&gt;</code></h3>
+					<p>O <strong>Elemento HTML <code>&lt;blockquote&gt;&lt;&sol;blockquote&gt;</code></strong> (ou <em>Elemento HTML de citação de bloco</em>) indica que o texto incluído é uma longa citação. A URL para a fonte da citação pode ser dada usando o atributo cite, enquanto uma representação de texto da fonte pode ser dada usando o &lt;cite&gt; elemento.</p>
+					<p>MDN Web Docs - <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">developer.mozilla.org</a></p>
+				</blockquote>
+			</div>
 		</main>
 		<script type="text/javascript" async charset="UTF-8" defer src="">
-			// conteúdo javascript ou apontamento externo para javascript, clientside
-			// async : execução do script de forma assincrona a leitura do documento, apenas scripts externos
-			// charset="" : padrão de caracteres usado
-			// defer : o script será executado somente após a página ser carregada
-			// src="" : fonte do arquivo externo
-			// type : formato do arquivo
 		</script>
 	</body>
-</html>
-
-https://www.youtube.com/watch?v=2Z58bFUul-c&list=PL-u8JWLN6xau0QpzuOTeTI954SsIGEsVA&index=106&ab_channel=hcode
-
-<!--
-Referências:
-
-<!DOCTYPE html>
-
-<html lang="pt_BR">
-	
-Cabeçalho:
-
-	<head> 
-
-		<meta>
-
-		<title></title>
-
-		<link rel="stylesheet" type="text/css" href="">
-
-		<style></style>
-
-	</head>
-
-Conteúdo:
-
-	<body>
-
-		<header>
-
-			<nav>
-
-				<h1></h1> 
-
-					<li></li>
-
-				</ul>
-
-			</nav>
-
-		</header>
-
-		<script></script> Obs: somente depois ou imediatamente antes do fechamento da tag body
-
-	</body>
 
 </html>
--->
