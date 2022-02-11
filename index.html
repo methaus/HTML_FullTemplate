@@ -19,97 +19,127 @@
 			</nav>
 		</header>
 		<main>
-			<header>
-				<h1>HTML - HyperText Markup Language: tags semânticas</h1>
-				<img alt="html logo" width="50" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-				<p>Site exemplo de orientação semântica das tags HTML e utilização dentro do documento.</p>
-			</header>
-			<div>
-				<h2>Texto</h2>
-				<div>
-					<h3><code>&lt;span&gt;&lt;&sol;span&gt;</code></h3>
-					<p>Tag de agrupamento de texto genérica, sem definição.</p>
-					<span>Ex: este é um texto sem predefinição e significado semântico.</span>
-				</div>
-				<div>
-					<h3><code>&lt;h*&gt;&lt;&sol;h*&gt;</code></h3>
-					<p>Tag de títulação, senguindo uma hierarquia: <code>&lt;h1&gt;</code> (um por página), <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code> e <code>&lt;h6&gt;</code>.</p>
-					<div>
-						<h4>Este é um título h4, último em hierarquia da página</h4>
-						<p>E responde a este parágrafo <code>&lt;p&gt;</code>, que estão dentro de uma <code>&lt;div&gt;</code> organizacional.</p>
-					<div>
-				</div>
-				<div>
-					<h3><code>&lt;p&gt;&lt;&sol;p&gt;</code></h3>
-					<p>Tag de parágrafo textual, bloco de texto.</p>
-					<p>Ex: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div>
-					<h3><code>&lt;a&gt;&lt;&sol;a&gt;</code></h3>
-					<p>tag de </p>
-				</div>
-				<div>
-					<h3><code>&lt;b&gt;&lt;&sol;b&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;i&gt;&lt;&sol;i&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;em&gt;&lt;&sol;em&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;strong&gt;&lt;&sol;strong&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;abbr&gt;&lt;&sol;abbr&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;q&gt;&lt;&sol;q&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;blockquote&gt;&lt;&sol;blockquote&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;time&gt;&lt;&sol;time&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;cite&gt;&lt;&sol;cite&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;pre&gt;&lt;&sol;pre&gt;</code></h3>
-					<p>Tag de texto preformatado, cujo texto será disposto da mesma maneira que foi descrito no arquivo fonte.</p>
-				</div>
-				<div>
-					<h3><code>&lt;code&gt;&lt;&sol;code&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;br&gt;</code></h3>
-					<p></p>
-				</div>
-				<div>
-					<h3><code>&lt;hr&gt;&lt;</code></h3>
-					<p></p>
-				</div>
-			</div>
-			<div>
-				<h2>Citações</h2>
-				<blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
-					<h3><code>&lt;blockquote&gt;</code></h3>
-					<p>O <strong>Elemento HTML <code>&lt;blockquote&gt;&lt;&sol;blockquote&gt;</code></strong> (ou <em>Elemento HTML de citação de bloco</em>) indica que o texto incluído é uma longa citação. A URL para a fonte da citação pode ser dada usando o atributo cite, enquanto uma representação de texto da fonte pode ser dada usando o &lt;cite&gt; elemento.</p>
-					<p>MDN Web Docs - <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">developer.mozilla.org</a></p>
-				</blockquote>
-			</div>
+			<article>
+				<header>
+					<h1>HTML - HyperText Markup Language: tags semânticas</h1>
+					<img alt="html logo" width="50" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+					<p>Site exemplo de orientação semântica das tags HTML e utilização dentro do documento.</p>
+				</header>
+				<section>
+					<h2>Elementos de Conteúdo Textual</h2>
+					<section>
+						<h3><code>&lt;span&gt;&lt;&sol;span&gt;</code></h3>
+						<p>Tag de agrupamento de texto genérica, sem definição.</p>
+					</section>
+					<section>
+						<h3><code>&lt;p&gt;&lt;&sol;p&gt;</code></h3>
+						<p>Tag de parágrafo textual, bloco de texto.</p>
+					</section>
+					<section>
+						<h3><code>&lt;a&gt;&lt;&sol;a&gt;</code></h3>
+						<p>Tag de hiperligação com endereços URL, arquivos e/ou mesma página.</p>
+					</section>
+					<section>
+						<h3><code>&lt;b&gt;&lt;&sol;b&gt;</code></h3>
+						<p>Tag de texto negrito sem qualquer valor semântico.</p>
+					</section>
+					<section>
+						<h3><code>&lt;i&gt;&lt;&sol;i&gt;</code></h3>
+						<p>Tag de texto itálico para diferenciação tipográfica: frases em outro idioma, termos técnicos, etc.</p>
+					</section>
+					<section>
+						<h3><code>&lt;em&gt;&lt;&sol;em&gt;</code></h3>
+						<p>Tag de ênfase da parte em relação ao conteúdo, itálico.</p>
+					</section>
+					<section>
+						<h3><code>&lt;strong&gt;&lt;&sol;strong&gt;</code></h3>
+						<p>Tag indicativa de maior importância em relação ao contexto, negrito.</p>
+					</section>
+					<section>
+						<h3><code>&lt;abbr&gt;&lt;&sol;abbr&gt;</code></h3>
+						<p>Tag indicativa de abreviação, com sua descrição no atributto <em>title</em>.</p>
+					</section>
+					<section>
+						<h3><code>&lt;cite&gt;&lt;&sol;cite&gt;</code></h3>
+						<p>Tag de título, da referência externa, ou URL.</p>
+					</section>
+					<section>
+						<h3><code>&lt;q&gt;&lt;&sol;q&gt;</code></h3>
+						<p>Tag de citações curtas, sem marcação de parágrafo.</p>
+					</section>
+					<section>
+						<h3><code>&lt;blockquote&gt;&lt;&sol;blockquote&gt;</code></h3>
+						<p>Tag de citações, URL da citação no atributo <em>cite</em>.</p>
+					</section>
+					<section>
+						<h3><code>&lt;time&gt;&lt;&sol;time&gt;</code></h3>
+						<p>Tag de referência de data/horário, atributo <em>pubdate</em> indica relação à data de publicação do documento e <em>datetime</em> a extensão da data em string ("yyyy-mm-dd hh:mm").</p>
+					</section>
+					<section>
+						<h3><code>&lt;pre&gt;&lt;&sol;pre&gt;</code></h3>
+						<p>Tag de texto preformatado, cujo texto será disposto da mesma maneira que foi descrito no arquivo fonte.</p>
+					</section>
+					<section>
+						<h3><code>&lt;code&gt;&lt;&sol;code&gt;</code></h3>
+						<p>Tag indicativa de pequeno fragmento de código.</p>
+					</section>
+					<section>
+						<h3><code>&lt;br&gt;</code></h3>
+						<p>Tag vazia de quebra de linha textual.</p>
+					</section>
+					<section>
+						<h3><code>&lt;hr&gt;</code></h3>
+						<p>Tag de quebra temática entre elementos, divisão entre parágrafos distintos, seção entre componentes, etc.</p>
+					</section>
+				</section>
+				<section>
+					<h2>Elementos de Separação de Conteúdo</h2>
+					<section>
+						<h3><code>&lt;h*&gt;&lt;&sol;h*&gt;</code></h3>
+						<p>Tag de títulação, senguindo uma hierarquia: <code>&lt;h1&gt;</code> (um por página), <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code> e <code>&lt;h6&gt;</code>.</p>
+					</section>
+					<section>
+						<h3><code>&lt;div&gt;&lt;&sol;div&gt;</code></h3>
+						<p>Rodapé do container anterior, suporte a informações autorais, seções de dados e/ou links relacionados.</p>
+					</section>
+					<section>
+						<h3><code>&lt;header&gt;&lt;&sol;header&gt;</code></h3>
+						<p>Tag de cabeçalho do container anterior, suporte introdutorio e/ou navegacional.</p>
+					</section>
+					<section>
+						<h3><code>&lt;main&gt;&lt;&sol;main&gt;</code></h3>
+						<p>Define o conteúdo principal dentro do <code>&lt;body&gt;&lt;&sol;body&gt;</code> do documento, apenas um por página.</p>
+					</section>
+					<section>
+						<h3><code>&lt;footer&gt;&lt;&sol;footer&gt;</code></h3>
+						<p>Rodapé do container anterior, suporte a informações autorais, seções de dados e/ou links relacionados.</p>
+					</section>
+					<section>
+						<h3><code>&lt;nav&gt;&lt;&sol;nav&gt;</code></h3>
+						<p></p>
+					</section>
+					<section>
+						<h3><code>&lt;article&gt;&lt;&sol;article&gt;</code></h3>
+						<p></p>
+					</section>
+					<section>
+						<h3><code>&lt;section&gt;&lt;&sol;section&gt;</code></h3>
+						<p></p>
+					</section>
+					<section>
+						<h3><code>&lt;aside&gt;&lt;&sol;aside&gt;</code></h3>
+						<p></p>
+					</section>
+					<section>
+						<h3><code>&lt;address&gt;&lt;&sol;address&gt;</code></h3>
+						<p></p>
+					</section>
+				</section>
+			</article>
 		</main>
+		<footer>
+			<p>Copyright &copy; 2021; Matheus Gabriel de Lima || contato: mg01012021@hotmail.com</p>
+		</footer>
 		<script type="text/javascript" async charset="UTF-8" defer src="">
 		</script>
 	</body>
